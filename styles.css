@@ -39,3 +39,38 @@ body {
 
 }
 
+.intro {
+    background-color: #c5cae9;
+    padding: 60px 45px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.intro-inner {
+    max-width: 700px;
+
+}
+
+.intro h1 {
+    font-weight: normal;
+    font-size: 4rem;
+    margin: 0;
+
+}
+
+.intro p {
+    font-size: 1.18rem;
+    line-height: 1.6;
+}
+
+.button {
+    background-color: #3949ab;
+    color: #FFF;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 1.18rem;
+
+}
+
