@@ -186,7 +186,7 @@ body {
 .blogret {
     display: flex;
     justify-content: center;
-    background-color: #e8eaf6;
+    
 }
 
 #contact {
@@ -253,4 +253,13 @@ form {
     bottom: 50px;
     left: 450px;
     
+}
+
+@media screen and (max-width: 599px) {
+    .contact-box {
+        left: 0%;
+    }
+    .conret {
+        display: none
+    }
 }
