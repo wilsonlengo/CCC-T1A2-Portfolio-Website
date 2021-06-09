@@ -258,6 +258,17 @@ form {
 @media screen and (min-width: 320px and max-width: 480px) {
     .contact-box {
         left: 0%;
+        
+    }
+    .conret {
+        display: none
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .contact-box {
+        left: 0%;
+        
     }
     .conret {
         display: none
