@@ -31,7 +31,7 @@
 
 body {
     margin: 0;
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: 'Electrolize', sans-serif;
 
 }
 
@@ -85,6 +85,14 @@ body {
     top: 200px;
     
 }
+
+.introtwo {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Electrolize', sans-serif;
+}
+
+
 
 .about {
     background-color: #e8eaf6;
@@ -208,7 +216,7 @@ body {
     display: grid;
     justify-content: center;
     margin: 0 auto;
-    padding-bottom: 100px;
+    padding-bottom: 75px;
     margin-top: 50px;
 
 }
@@ -258,8 +266,8 @@ form {
 
 .conret {
     position: absolute;
-    bottom: 15px;
-    left: 450px;
+    bottom: 10px;
+    left: 300px;
     
 }
 
@@ -288,6 +296,7 @@ form {
         width: 100%;
         margin: 0 auto;
         left: 0%;
+        
        
         
         
@@ -298,6 +307,9 @@ form {
         
     }
 
+    .introtwo {
+        display: none;
+    }
   
    
 }
@@ -324,7 +336,10 @@ form {
        justify-content: space-evenly;
    }
     
- 
+}
 
 
+.socials {
+    display: flex;
+    justify-content: center;
 }
