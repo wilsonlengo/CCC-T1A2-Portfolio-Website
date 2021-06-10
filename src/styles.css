@@ -283,14 +283,15 @@ form {
     }
 
     .contact-box {
-        width: 360px;
+        width: 100%;
         margin: 0 auto;
-        left: 10px;
+        left: 0;
 
     }
     
     .input-field {
         width: 300px;
+        left: 10px;
     }
    
 }
