@@ -261,7 +261,12 @@ form {
         width: 320px;
     }
     .conret {
-        display: none
+        display: none;
+    }
+    .profpic {
+        position: relative;
+        left: 0;
+        
     }
 }
 
@@ -273,4 +278,13 @@ form {
     .conret {
         display: none
     }
+    .profpic {
+        position: relative;
+        left: 0;
+    
+    }
+    .intro-inner {
+        right: 100px;
+    }
+    
 }
