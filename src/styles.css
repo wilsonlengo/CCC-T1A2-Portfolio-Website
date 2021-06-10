@@ -262,9 +262,7 @@ form {
 }
 
 @media screen and (min-width: 320px and max-width 480px) {
-    .contact-box {
-        left: 0%;
-        width: 320px;
+    
     }
     .conret {
         display: none;
@@ -282,6 +280,17 @@ form {
            display: flex;
            justify-content: space-evenly;
         
+    }
+
+    .contact-box {
+        width: 360px;
+        margin: 0 auto;
+        left: 10px;
+
+    }
+    
+    .input-field {
+        width: 300px;
     }
    
 }
