@@ -273,6 +273,7 @@ form {
         display: none;
         
     }
+   
 }
 
 @media screen and (max-width: 599px) {
@@ -287,6 +288,14 @@ form {
        display: none;
     
     }
+    .homebtn {
+        height: 100px;
+        width: 100px;
+    } 
     
+   .navbar {
+       display: flex;
+       justify-content: space-evenly;
+   }
     
 }
